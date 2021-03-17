@@ -10,15 +10,21 @@
     align-items: center;
     flex-direction: column;
     height: 300px;
-    width: 200px;
+    width: 230px;
     background-image: linear-gradient( aqua 26%, white 41%);
+    border: 1px solid aqua;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 25px 5px;
 }
 
 .con_img{
-   width: 60px;
-   height: 60px;
+   width: 70px;
+   height: 70px;
    border-radius: 50%;
    overflow: hidden;
+   margin-top: 25px;
+   border: 2px solid white;
 }
 
 .flex_box{
@@ -41,4 +47,12 @@
 
 .number{
 
+}
+
+.name{
+    margin-bottom: 10px ;
+}
+
+.track{
+    margin : 0 0 10px ;
 }
