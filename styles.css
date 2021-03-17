@@ -1,0 +1,44 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.sub_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    background-image: linear-gradient( aqua 26%, white 41%);
+}
+
+.con_img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.flex_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.flex_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.like{
+   
+}
+
+.number{
+
+}
